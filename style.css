@@ -1,7 +1,7 @@
 body{
   
   margin: 0;
-  padding: 0;
+  padding-top: 100px;
   font-size: 18px;
   font-family: DM Sans;
   font-weight:500;
@@ -10,6 +10,7 @@ body{
 }
 
 .container{
+  
   display: grid;
   grid-template-columns:  0.4fr 0.8fr 0.3fr ;
   grid-template-rows:  31rem 15rem 22rem;
