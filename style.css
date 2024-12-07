@@ -11,8 +11,8 @@ body{
 
 .container{
   display: grid;
-  grid-template-columns:  0.4fr 1fr 0.4fr ;
-  grid-template-rows:  35rem 15rem 20rem;
+  grid-template-columns:  0.4fr 0.8fr 0.3fr ;
+  grid-template-rows:  31rem 15rem 22rem;
   
   
 max-width: 100rem;
@@ -54,21 +54,14 @@ grid-template-areas:
 
 
 
-.content1{ display: grid;
-  text-align: center;
-  
-  
-}
-.content2{
-  
-  
-}
+
 
 .item1{
   background-color: hsl(31, 66%, 93%);
   border-radius: 20px;
   
-  font-size: 20px;
+  font-size: 40px;
+  padding-left: 50px;
   
   
 
@@ -76,14 +69,15 @@ grid-template-areas:
 }
 span{color: hsl(256, 67%, 59%);}
 .item1 .create_post_img{
-  width: 13rem;
-height: 6rem;
+  width: 15rem;
+height: 7rem;
 }
 
 
 .item2{
   background-color: hsl(39, 100%, 71%);
   border-radius: 20px;
+  padding-left: 50px;
   
   
 }
@@ -118,8 +112,9 @@ color: white;
 
 .item4{background-color: white;
   border-radius: 20px;
-  text-align: center;
+  
   overflow: hidden;
+  padding-left: 40px;
   
   
 
@@ -132,7 +127,7 @@ color: white;
     
     
  }
- .item4 h3{font-size: 30px;
+ .item4 h3{font-size: 40px;
   }
 
 .item5{
@@ -143,7 +138,7 @@ color: white;
   justify-content: center;
   align-content: center;
   align-items: center;
-  text-align: center;
+  
   
 }
 .item5 img{width: 250px;
@@ -152,17 +147,21 @@ transform: translate(0, 80px);
 
 }
 .item5 h2{
-  font-size: 30px;
+  font-size: 40px;
+  margin:0;
+  padding-top: 25px;
   
   
 }
 .item6{background-color: hsl(254, 88%, 90%);
   border-radius: 20px;
   overflow: hidden;
-  display: grid;
-  align-items: center;
-  align-content: center;
-  text-align: center;
+  padding-left: 30px;
+ }
+ 
+ .item6 h2{font-size: 40px;}
+ .item6 p{
+  font-size: 24px;
  }
 
  .item6 img{width: 300px;
